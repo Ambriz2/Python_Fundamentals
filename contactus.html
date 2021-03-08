@@ -1,0 +1,174 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+           <!-- Additional CSS must be placed after Bootstrap CSS -->
+           <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+           <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css" />
+    
+        <title>Portfolio Project</title>
+    </head>
+
+    <body>
+        
+          <header class="jumbotron jumbotron-fluid">
+              <a href="numCampers"></a>
+              <div class="container">
+                  <div class="text-center">
+                    <div>
+                      <h1>Cultivemos en casa</h1>
+                    </div>
+                      <nav class=" navbar navbar-light navbar-expand-sm">
+                        <div class="container">
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gardenNavbar"> 
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="gardenNavbar" >
+                            <ul class="navbar-nav" >
+                                <li class="navbarfont p-2" class="nav-item active"><a class="btn btn-info" href="Index.html"><i class="fa fa-home fa-lg"></i>Inicio</a></li>
+                                <li class="navbarfont p-2" class="nav-item"><a  class="btn btn-info" href="aboutus.html"><i class=></i>Nosotros</a></li>
+                                <li class="navbarfont p-2" class="nav-item"><a class="btn btn-info" href="#"><i class=></i> Contacto</a></li>
+                            </ul>
+                          </div>
+                        <form class="form-inline">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                      </nav>
+                    </div> 
+              </div>
+          </header>
+          <div class="containe">
+            <div class="form">
+              <div class="contact-info">
+
+              </div>
+              <form>
+                
+                  <div class="contact-form" class="forma">
+                    <div class="form-group">
+                        <div class="col">
+                            <label for="firstName" class="col-md-2 col-form-label">Nombre</label>
+                           <div class="col-md-3">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Nombre" />
+                           </div>
+                        </div>
+                        <div class="col">
+                              <label for="lastName" class="col-md-2 col-form-label">Apellido</label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Apellido" />
+                            </div>
+                        </div>    
+                            <div class="col">
+                                <label for="email" class="col-md-2 col-form-label">Email</label>
+                                  <div class="col-md-3">
+                                      <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                                  </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                              <label  for="comment">Comentario o preguntas</label>
+                              <textarea class="form-control" rows="5" id="comment"></textarea>
+                              <div class="mt-2"n>
+                              <button  class="btn btn-primary" type="submit">Enviar</button>
+                            </div>
+                            </div>
+                    </div>
+                  </div>
+              </form>    
+             
+            </div>
+          </div>
+           <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+        <div class="row mt-5 justify-content-center">
+          <div class="col-lg-10">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+             <!-- <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+               //<div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>-->
+              <div class="text-center" ><button class="btn btn-success"  type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+        
+    
+          <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-2">
+                        <h5>Links</h5>
+                       
+                            <ul class="col-sm-4">
+                                <li><a class="text-white" href="index.html">Inicio</a></li>
+                                <li><a class="text-white" href="aboutus.html">Nosotros</a></li>
+                                <li><a class="text-white"href="contactus.html">Contacto</a></li>
+                            </ul>
+                          
+                    </div>
+                    <div class="col-6 col-sm-5 text-center">
+                        <h5>Social</h5>
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i> </a>
+                        
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    </div>
+                    <div class="col-sm-4 p-5"> 
+                      <div class="row">
+                       
+                        <a  role="button"  class="text-white" class="btn btn-link" href=""><i class="fa fa-envelope fa-lg text-dark"></i>dfsasdfk@gmail.com</a>
+                      </div> 
+                 </div> 
+                        <div class="col-sm text-center">
+                               <p> © 2021 Copyright:</p>
+                                 
+                         </div>
+               </div>
+            </div>
+         </footer>  
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/gardening.js"></script>
+    
+    </html>
